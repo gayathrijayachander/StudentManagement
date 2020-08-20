@@ -1,0 +1,14 @@
+Student ID, Name, Gender, DateOfBirth, City, State, EmailID, Qualification, Stream
+1, Raj, Male, 10-10-1995, Mumbai, Maharashtra, raj@gmail.com, B.E, Electronics
+2, Priyanka, Female, 20-10-1995, Pune, Maharashtra, priyanka@gmail.com, B.Tech, IT
+3, gayu,Female, 04-06-1999, chennai, tamilnadu, gayu@gmail.com, B.E, ECE
+4, arjun,Male, 3-04-1997, chennai, Tamilnadu, arjun@gmail.com, B.E, Computers
+5, Lucky,Female, 09-08-1999, Hyderabad, Telangana, lucky@gmail.com, B.E, Computers
+6, Venky,Male, 05-09-1997, Hyderabad, Telangana, venky@gmail.com, MBA, consulting
+7, Dhoni,Male, 07-07-1997, Chennai, Tamilnadu, dhoni@gmail.com, B.com, commerce
+8, yash,Male, 10-01-1997, Bangalore, karnataka, yash@gmail.com, B.E, Electronics
+9, Sneha,Female, 06-02-0998, Hyderabad, Telangana, sneha@gmail.com, B.E, Electronics
+10, Gayathri,Female, 04-06-1999, Chennai, Tamilnadu, gayathri@gmail.com, B.E, Electronics
+11, Raji,Female, 01-11-1996, chennai, Tamilnadu, raji@gmail.com, BSC, chemistry
+12, mahesh,Male, 09-08-1995, Hyderabad, Telangana, mahesh@gmail.com, B.com, commerce
+14, arya,Female, 05-04-1998, Bangalore, karnataka, arya@gmail.com, MBA, consulting
