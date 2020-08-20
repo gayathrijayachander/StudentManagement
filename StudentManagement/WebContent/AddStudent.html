@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Student Page</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<style>
+.center{
+margin-top:25px;
+margin-left:300px
+}
+.button{
+ background-color: #4CAF50;
+ color:white;
+ border:none;
+ margin-left:15px
+}
+</style>
+<body>
+<div class="center">
+	<form method="post" action="addStudent">
+		Student ID
+		<br><input type="text" name="studentID" pattern="[0-9]{1,}"><br><br>
+		Student Name
+		<br><input type="text" name="studentName" pattern="[A-Za-z]{3,} [A-Za-z]{,}"><br><br>
+		Gender Name
+		<br><input type="checkbox" name="male" id="male" class="check"><label for="male">Male</label>
+		<br><input type="checkbox" name="female" id="female" class="check"><label for="female">Female</label><br><br>
+		Date of Birth
+		<br><input type="date" name="date"><br><br>
+		City
+		<br><input type="text" name="city" pattern="[A-Za-z]{3,} [A-Za-z]{,}"><br><br>
+		State
+		<br><input type="text" name="state" pattern="[A-Za-z]{3,} [A-Za-z]{,}"><br><br>
+		Email ID
+		<br><input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
+		Qualification
+		<br><input type="text" name="qualification"><br><br>
+		Stream
+		<br><input type="text" name="stream" pattern="[A-Za-z]{2,}"><br>
+		<br><button class="button">Submit</button>
+	</form>
+	</div>
+	<script>
+	$(document).ready(function(){
+    $('.check').click(function() {
+        $('.check').not(this).prop('checked', false);
+    });
+});
+</script>
+</body>
+</html>
